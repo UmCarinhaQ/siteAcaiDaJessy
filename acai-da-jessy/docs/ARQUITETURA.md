@@ -6,7 +6,7 @@
 Navegador (esta pasta)  ──fetch/JSON──▶  API Node + Express + TypeScript  ──pg──▶  PostgreSQL
 HTML, CSS e JS                           regras, login, preços, estoque          database/schema.sql
 ```
-
+cd ../siteAcaiDaJessy
 ## Banco de dados (PowerShell, no Windows)
 
 ```powershell

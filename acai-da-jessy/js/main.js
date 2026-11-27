@@ -45,4 +45,6 @@ adm('/avaliacoes', Views.adminAvaliacoes, 'avaliacoes');
 adm('/financeiro', Views.adminFinanceiro, 'financeiro');
 adm('/entregas', Views.adminEntregas, 'entregas');
 
-Router.start();
+Api.carregarCardapio().finally(() => {
+  Router.start();
+});
